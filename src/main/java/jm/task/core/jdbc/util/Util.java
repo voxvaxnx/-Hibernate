@@ -48,7 +48,7 @@ public class Util {
                 sessionFactory = configuration.buildSessionFactory(serviceRegistry);
 
             } catch (Exception e) {
-                System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                System.out.println("Проблемы при создании Session Factory");
                 e.printStackTrace();
             }
         }
